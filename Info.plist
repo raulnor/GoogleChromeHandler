@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourname.googlechromehandler</string>
+    <key>CFBundleName</key>
+    <string>GoogleChromeHandler</string>
+    <key>CFBundleExecutable</key>
+    <string>GoogleChromeHandler</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>Google Chrome URL</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>gc</string>
+                <string>chrome</string>
+                <string>googlechrome</string>
+                <string>googlechromes</string>
+            </array>
+        </dict>
+    </array>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>LSBackgroundOnly</key>
+    <true/>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+</dict>
+</plist>
